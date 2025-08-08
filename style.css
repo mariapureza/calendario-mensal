@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e6f2f1; 
+  display: flex;
+  justify-content: center;
+  padding: 30px 20px;
+  color: #2f4f4f; 
+}
+
+.calendario-container {
+  max-width: 420px;
+  width: 100%;
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(47, 79, 79, 0.15);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2f4f4f;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.calendario {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.dia-semana {
+  text-align: center;
+  font-weight: 700;
+  color: #3b7a57; 
+  padding-bottom: 8px;
+  border-bottom: 2px solid #3b7a57;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.dia {
+  background: #cce5d0; 
+  padding: 15px 0;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  cursor: default;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+}
+
+.dia:hover {
+  background-color: #3b7a57;
+  color: white;
+}
+
+.vazio {
+  background: transparent;
+  cursor: default;
+  box-shadow: none;
+}
+
+.destaque {
+  background-color: #2f4f4f; 
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 0 10px #3b7a57aa;
+  cursor: default;
+  transition: background-color 0.3s ease;
+}
+
+.destaque:hover {
+  background-color: #3b7a57;
+}
