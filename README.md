@@ -8,3 +8,6 @@ Tecnologias
 
 Demonstração
 https://github.com/mariapureza/calendario-mensal/blob/main/screenshot-calendario.png
+
+Acesse o projeto
+https://mariapureza.github.io/calendario-mensal/
